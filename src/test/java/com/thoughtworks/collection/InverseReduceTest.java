@@ -16,7 +16,7 @@ public class InverseReduceTest {
         Random random = mock(Random.class);
         when(random.nextInt(3)).thenReturn(2);
 
-            InverseReduce inverseReduce = new InverseReduce(random);
+        InverseReduce inverseReduce = new InverseReduce(random);
 
         Integer[] result = new Integer[]{7, 5, 3, 1};
         List<Integer> resultList = Arrays.asList(result);
